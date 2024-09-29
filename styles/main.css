@@ -6,7 +6,26 @@ a:focus, a:hover {
   font-style:italic;
   color: #800000;
   text-decoration: underline;}
-header {
+header h3 {
+  font-size: 170%;
+  text-shadow: 3px 3px 5px rgba((4, 59, 92);, 1);
+  text-indent: 75px}
+header img { 
+  float: left;} 
+main {
+  clear: left;}
+main h4 { 
+  font-size: 140%;
+  text-indent: 50px;}
+main h3 {
+  font-size: 130%;
+  text-indent: 40px;}
+a {
+  color: #800000:}
+footer p {
+  text-align: center;
+  
+  
   
 
   
