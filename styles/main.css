@@ -22,6 +22,12 @@ main h3 {
   text-indent: 40px;}
 a {
   color: var(--global-color-1);}
+.shadow{
+  text-shadow: 2px 2px 2px steelblue;}
+ul li{
+  margin-bottom:15px;}
+ul li a:hover{
+  color:maroon;}
 footer p {
   text-align: center;}
   
