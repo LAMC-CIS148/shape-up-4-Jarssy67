@@ -16,7 +16,11 @@ a:focus, a:hover {
 header h1 {
   font-size: 150%;
   text-shadow: 3px 3px 5px rgba(4, 59, 92, 0.4);
-  text-indent: 75px;}
+  text-indent: 75px
+}
+header h2 {
+  font-size: 130%;
+}
 header img { 
   float: left;} 
 main {
