@@ -30,25 +30,39 @@ header img {
   float: left;} 
 main {
   clear: left;}
+main p {
+  padding: 5px;
+  margin: 2em: 
+}
 main h4 { 
   font-size: 140%;
-  text-indent: 50px;}
+  text-indent: 50px;
+  padding: 5px;
+  margin: 1em;
+  }
 main h3 {
   font-size: 130%;
-  text-indent: 40px;}
+  text-indent: 20px;
+  padding: 5px;
+  margin: 1em;
+  }
 a {
   color: var(--global-color-1);}
 .shadow{
   text-shadow: 2px 2px 2px steelblue;}
 ul li{
-  margin-bottom:15px;}
+  margin-bottom:15px;
+  padding: 5px; 
+  }
 ul li a:hover{
-  color:steelblue;}
+  color:steelblue;
+  }
 footer {
   border: 3px steelblue;
   border-style: solid;
   background-color: steelblue; 
-}
+  }
 footer p {
   text-align: center;
-  color: white;}
+  color: white;
+  }
