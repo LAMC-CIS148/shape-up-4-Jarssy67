@@ -11,6 +11,7 @@ body {
     width: 900px; 
     margin: 0 auto; 
     border: 3px solid steelblue;
+    shadow: 3px 3px 5px rgba(4, 59, 92, 0.4); 
     }
 a:focus, a:hover {
   font-style:italic;
@@ -18,7 +19,7 @@ a:focus, a:hover {
   text-decoration: underline;}
 header h1 {
   font-size: 200%;
-  color: darkblue;
+  color: dark blue;
   text-shadow: 3px 3px 5px rgba(4, 59, 92, 0.4);
   text-indent: 75px
 }
