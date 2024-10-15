@@ -28,11 +28,9 @@ header h2 {
 }
 header img { 
   float: left;} 
-main {
-  clear: left;}
 main p {
   padding: 5px;
-  margin: 2em;
+  margin: .5em;
 }
 main h4 { 
   font-size: 140%;
