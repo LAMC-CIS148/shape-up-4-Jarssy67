@@ -67,6 +67,10 @@ main p{
   margin-right: 35px;
   margin-left: 30px;
 }
+aside {
+  float: left; 
+  width: 245px;
+  clear: both;
 ul li{
   margin-bottom: 15px;
   margin-right: 30px;
