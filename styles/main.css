@@ -70,7 +70,6 @@ main p{
 aside {
   float: left; 
   width: 245px;
-  clear: both;
 }
 ul li{
   margin-bottom: 15px;
