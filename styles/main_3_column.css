@@ -69,7 +69,7 @@ main p{
 }
 section {
 width: 575px;
-float: none;
+text-align: center;
 padding: 0 20px 20px 20px;
 }
 section h1 {
