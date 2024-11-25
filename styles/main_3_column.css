@@ -45,7 +45,7 @@ header img{
   justify-content: space-between;
   align-items: flex-start;
 }
-main{
+main {
 clear: both;
 }
 main h1{
@@ -74,6 +74,7 @@ main p{
 }
 section {
 width: 60%;
+float: none;
 padding: 0 20px 20px 20px;
 }
 section h1 {
@@ -91,12 +92,11 @@ padding-bottom: .5em;
 }
 #sidebar {
   width: 20%;
+  float: right;
 }
 #left-aside {
   width: 20%;
-}
-aside, section {
-  float: none;
+  float: left;
 }
 ul li{
   margin-bottom: 15px;
