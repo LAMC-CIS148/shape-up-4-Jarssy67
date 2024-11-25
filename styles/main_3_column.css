@@ -40,12 +40,7 @@ header img{
   margin-right: 35px;
   margin-left: 30px;
 }
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-main {
+main{
 clear: both;
 }
 main h1{
@@ -73,13 +68,14 @@ main p{
   margin-left: 30px;
 }
 section {
-width: 60%;
+width: 575px;
+float: right;
 padding: 0 20px 20px 20px;
 }
 section h1 {
 font-size: 150%;
 padding: .5em 0 .25em 0;
-margin: 0;               
+margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
 }
 section h2 {
 color: #800000;
@@ -90,12 +86,12 @@ section p {
 padding-bottom: .5em;
 }
 #sidebar {
-  width: 20%;
   float: right;
+  width: 300px;
 }
-#left-aside {
-  width: 20%;
-  float: left;
+aside {
+  float: left; 
+  width: 245px;
 }
 ul li{
   margin-bottom: 15px;
