@@ -21,10 +21,6 @@ header{
   border-bottom: 5px solid steelblue;
   background-image: linear-gradient(180deg, white, lightsteelblue);
 }
-.container{
-  display: flex;
-  flex-wrap: nowrap;
-}
 header h1{
   font-size: 50px;
   margin-top: 5px;
