@@ -67,6 +67,10 @@ main p{
   margin-right: 35px;
   margin-left: 30px;
 }
+#sidebar {
+  float: right;
+  width: 300px;
+}
 aside {
   float: left; 
   width: 245px;
