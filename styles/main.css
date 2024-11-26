@@ -41,42 +41,42 @@ header img{
   margin-left: 30px;
 }
 #nav_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: relative;
 }
 #nav_menu ul li {
-	float: left;
+float: left;
 }
 #nav_menu ul li a {
-    display: block;
-    width: 130px;
-    text-align: center;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: #800000;
-    color: white;
-    font-weight: bold;
+ display: block;
+ width: 130px;
+text-align: center;
+padding: 1em 0;
+ text-decoration: none;
+ background-color: steelblue;
+ color: gold;
+ font-weight: bold;
 }
 #nav_menu a.current {
-	color: yellow;
+color: magenta;
 }
 #nav_menu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
+ display: none;
+ position: absolute;
+top: 100%;
 }
 #nav_menu ul ul li {
-	float: none;
+float: none;
 }
 #nav_menu ul li:hover > ul {
-	display: block;
+display: block;
 }
 #nav_menu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
+content: "";
+clear: both;
+display: block;
 }
 
 main{
