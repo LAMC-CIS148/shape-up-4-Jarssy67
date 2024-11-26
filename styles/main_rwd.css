@@ -47,7 +47,7 @@ header img {
   display: flex;
   justify-content: space-around; /* Ensures even spacing */
   align-items: center;
-  gap: 1rem; /* Adds spacing between menu items */
+  gap: 0 auto;
   flex-wrap: wrap; /* Ensures items wrap on smaller screens */
 }
 #nav_menu ul li {
