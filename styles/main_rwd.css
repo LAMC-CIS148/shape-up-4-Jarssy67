@@ -45,7 +45,7 @@ header img {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around; /* Ensures even spacing */
+  justify-content: center; /* Ensures even spacing */
   align-items: center;
   gap: 0 auto;
   flex-wrap: wrap; /* Ensures items wrap on smaller screens */
