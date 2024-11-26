@@ -45,39 +45,81 @@ header img {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around; /* Ensures even spacing */
   align-items: center;
-  gap: 0.5em; /* Added spacing between menu items */
+  gap: 1rem; /* Adds spacing between menu items */
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
 }
 #nav_menu ul li {
-  position: relative;
+  position: relative; /* Necessary for dropdown menus */
   margin: 0;
   padding: 0;
 }
 #nav_menu ul li a {
   display: block;
-  width: auto; /* Allow auto-sizing for responsiveness */
-  max-width: 20%; /* Ensures menu links scale but don't exceed */
-  text-align: center;
-  padding: 0.5em;
-  text-decoration: none;I
+  padding: 0.8rem 1rem; /* Responsive padding */
+  text-decoration: none;
   background-color: steelblue;
   color: gold;
   font-weight: bold;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  width: auto; /* Adapts to content width */
+  max-width: 20%; /* Ensures links stay fluid */
+  text-align: center;
+}
+#nav_menu ul li a:hover {
+  background-color: gold;
+  color: steelblue;
 }
 #nav_menu a.current {
   color: magenta;
 }
 #nav_menu ul ul {
-  display: none;
-  position: absolute;
- #nav_menu ul li:hover > ul {
-  display: block;
+  display: none; /* Hidden by default */
+  position: absolute; /* Absolute positioning for dropdowns */
+  top: 100%; /* Dropdown appears below parent */
+  left: 0; /* Aligns dropdown with parent */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: steelblue;
+  border-radius: 5px; /* Rounded corners */
+  z-index: 1000; /* Dropdown appears on top */
+  min-width: 150px; /* Ensures dropdown has a minimum width */
+}
+#nav_menu ul ul li {
+  width: 100%; /* Dropdown links take full width */
+}
+#nav_menu ul ul li a {
+  width: 100%; /* Links fill dropdown */
+  padding: 0.8rem; /* Consistent padding */
+  text-align: left; /* Left-align text for dropdown */
+}
+#nav_menu ul li:hover > ul {
+  display: block; /* Show dropdown on hover */
 }
 #nav_menu > ul::after {
   content: "";
   clear: both;
   display: block;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #nav_menu ul {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 0.5rem; /* Adjust spacing for smaller screens */
+  }
+  #nav_menu ul li a {
+    width: 100%; /* Links stretch to fit the container */
+    text-align: center; /* Keep text centered */
+  }
+  #nav_menu ul ul {
+    position: static; /* Disable absolute positioning for better mobile UX */
+  }
+  #nav_menu ul ul li a {
+    padding: 0.6rem; /* Adjust padding for smaller links */
+  }
 }
 main {
   clear: left; top: 100%;
