@@ -83,7 +83,7 @@ header img {
   padding: 0;
   background-color: steelblue;
   border-radius: 5px; 
-  z-index: 1000; 
+  z-index: -1; 
   min-width: 150px; 
 }
 #nav_menu ul ul li {
