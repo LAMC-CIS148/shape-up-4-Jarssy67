@@ -45,27 +45,26 @@ header img {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center; /* Ensures even spacing */
+  justify-content: center;
   align-items: center;
-  gap: 0 auto;
-  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 #nav_menu ul li {
-  position: relative; /* Necessary for dropdown menus */
+  position: relative; 
   margin: 0;
   padding: 0;
 }
 #nav_menu ul li a {
   display: block;
-  padding: 0.8rem 1rem; /* Responsive padding */
+  padding: 0.8rem 1rem; 
   text-decoration: none;
   background-color: steelblue;
   color: gold;
   font-weight: bold;
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-  width: auto; /* Adapts to content width */
-  max-width: 20%; /* Ensures links stay fluid */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto;
+  max-width: 40%;
   text-align: center;
 }
 #nav_menu ul li a:hover {
@@ -76,28 +75,28 @@ header img {
   color: magenta;
 }
 #nav_menu ul ul {
-  display: none; /* Hidden by default */
-  position: absolute; /* Absolute positioning for dropdowns */
-  top: 100%; /* Dropdown appears below parent */
-  left: 0; /* Aligns dropdown with parent */
+  display: none;
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
   list-style: none;
   margin: 0;
   padding: 0;
   background-color: steelblue;
-  border-radius: 5px; /* Rounded corners */
-  z-index: 1000; /* Dropdown appears on top */
-  min-width: 150px; /* Ensures dropdown has a minimum width */
+  border-radius: 5px; 
+  z-index: 1000; 
+  min-width: 150px; 
 }
 #nav_menu ul ul li {
-  width: 100%; /* Dropdown links take full width */
+  width: 100%; 
 }
 #nav_menu ul ul li a {
-  width: 100%; /* Links fill dropdown */
-  padding: 0.8rem; /* Consistent padding */
-  text-align: left; /* Left-align text for dropdown */
+  width: 100%; 
+  padding: 0.8rem; 
+  text-align: left; 
 }
 #nav_menu ul li:hover > ul {
-  display: block; /* Show dropdown on hover */
+  display: block;
 }
 #nav_menu > ul::after {
   content: "";
@@ -107,18 +106,18 @@ header img {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   #nav_menu ul {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    gap: 0.5rem; /* Adjust spacing for smaller screens */
+    flex-direction: column;
+    gap: 0.5rem; 
   }
   #nav_menu ul li a {
-    width: 100%; /* Links stretch to fit the container */
-    text-align: center; /* Keep text centered */
+    width: 100%; 
+    text-align: center;
   }
   #nav_menu ul ul {
-    position: static; /* Disable absolute positioning for better mobile UX */
+    position: static; 
   }
   #nav_menu ul ul li a {
-    padding: 0.6rem; /* Adjust padding for smaller links */
+    padding: 0.6rem; 
   }
 }
 main {
